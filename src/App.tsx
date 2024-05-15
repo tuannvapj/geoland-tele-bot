@@ -28,7 +28,7 @@ function App() {
         </p>
       </div>
       <div className="card">
-        <button onClick={() => WebApp.sendData({"web_app_data": "Xin chào!"})}>
+        <button onClick={() => WebApp.close()}>
             Show Alert
         </button>
       </div>
