@@ -8,6 +8,8 @@ import WebApp from '@twa-dev/sdk'
 function App() {
   const [count, setCount] = useState(0)
 
+  WebApp.requestWriteAccess
+
   return (
     <>
       <div>
@@ -28,7 +30,7 @@ function App() {
         </p>
       </div>
       <div className="card">
-        <button onClick={() => WebApp.close()}>
+        <button onClick={() => WebApp.showAlert("Xin chào!")}>
             Show Alert
         </button>
       </div>
