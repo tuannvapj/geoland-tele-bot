@@ -28,7 +28,7 @@ function App() {
         </p>
       </div>
       <div className="card">
-        <button onClick={() => WebApp.showAlert("Xin chào!")}>
+        <button onClick={() => WebApp.switchInlineQuery('Show me something', ['users', 'groups'])}>
             Show Alert
         </button>
       </div>
