@@ -6,6 +6,7 @@ import './index.css'
 import WebApp from '@twa-dev/sdk'
 
 WebApp.ready()
+WebApp.setBackgroundColor('#888311');
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
